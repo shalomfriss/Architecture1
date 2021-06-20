@@ -10,14 +10,17 @@ import UIKit
 class ViewControllerB: UIViewController, StoryboardInstantiable {
 
     var viewModel:ViewModelB?
-    var coordinator: Coordinator?
+    var coordinator: ModuleBCoordinator?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel?.setup()
     }
     
-    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        coordinator?.didFinishB()
+    }
     
 
     deinit {

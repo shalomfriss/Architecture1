@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		448AA7E7267F886E004186CD /* ModuleBCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448AA7E6267F886E004186CD /* ModuleBCoordinator.swift */; };
 		4497A337266BE42E00CCA102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4497A336266BE42E00CCA102 /* AppDelegate.swift */; };
 		4497A339266BE42E00CCA102 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4497A338266BE42E00CCA102 /* SceneDelegate.swift */; };
 		4497A33B266BE42E00CCA102 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4497A33A266BE42E00CCA102 /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		448AA7E6267F886E004186CD /* ModuleBCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBCoordinator.swift; sourceTree = "<group>"; };
 		4497A333266BE42E00CCA102 /* Architecture1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Architecture1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4497A336266BE42E00CCA102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4497A338266BE42E00CCA102 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 		4497A37A266DA17800CCA102 /* ModuleB */ = {
 			isa = PBXGroup;
 			children = (
+				448AA7E6267F886E004186CD /* ModuleBCoordinator.swift */,
 				4497A37B266DA1B900CCA102 /* ModelB.swift */,
 				4497A37D266DA1C600CCA102 /* ViewControllerB.swift */,
 				4497A37F266DA1D500CCA102 /* ViewModelB.swift */,
@@ -353,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				448AA7E7267F886E004186CD /* ModuleBCoordinator.swift in Sources */,
 				4497A378266BE4B400CCA102 /* ViewModelA.swift in Sources */,
 				4497A380266DA1D500CCA102 /* ViewModelB.swift in Sources */,
 				4497A374266BE4A700CCA102 /* ViewControllerA.swift in Sources */,

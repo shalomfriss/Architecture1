@@ -18,6 +18,15 @@ class ViewControllerA: UIViewController, StoryboardInstantiable {
     
     var coordinator: Coordinator?
     
+//    init() {
+//        super.init(nibName: nil, bundle: nil)
+//        print("A")
+//    }
+//    
+//    required init?(coder: NSCoder) {
+//        fatalError("init(coder:) has not been implemented")
+//    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

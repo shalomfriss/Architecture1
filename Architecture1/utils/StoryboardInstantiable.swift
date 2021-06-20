@@ -12,6 +12,7 @@ protocol StoryboardInstantiable {
     static func instantiate() -> Self
 }
 
+//This requires that your view controller class name match your storyboard id
 extension StoryboardInstantiable where Self: UIViewController {
     static func instantiate() -> Self {
         let id = String(describing: self)
