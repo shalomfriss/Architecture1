@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ViewModelA:NSObject{
+class ViewModelA: NSObject{
     var view:ViewControllerA?
     var model:ModelA?
     
